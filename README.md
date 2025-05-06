@@ -42,3 +42,21 @@
        email VARCHAR(100) NOT NULL,
        fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
    );
+# 👥 Team Manager - Plugin WordPress
+
+**Propósito**: Gestión de miembros de equipo mediante Custom Post Types.
+
+## 💻 Stack tecnológico
+- **WordPress Hooks**: `register_post_type`, `add_meta_boxes`
+- **PHP**: Clases para organización del código
+- **Advanced Custom Fields** (opcional): Campos adicionales
+
+## ✨ Features destacados
+- **Backend intuitivo**:
+  - CPT con columnas personalizadas
+  - Metabox para redes sociales
+- **Shortcode flexible**:
+  ```php
+  [team_grid columns="3" style="card"]
+
+  
